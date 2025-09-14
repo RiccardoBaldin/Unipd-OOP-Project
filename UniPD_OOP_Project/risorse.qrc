@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IMMAGINI/LOGO.png</file>
+        <file>IMMAGINI/LIBRO.png</file>
+        <file>IMMAGINI/FILM.png</file>
+        <file>IMMAGINI/SERIE.png</file>
+        <file>IMMAGINI/PUNTO.png</file>
+        <file>IMMAGINI/LIBRERIA.png</file>
+
+        <file>IMMAGINI/Film_Aggiungi.png</file>
+        <file>IMMAGINI/Libro_Aggiungi.png</file>
+        <file>IMMAGINI/Serie_Aggiungi.png</file>
+        <file>IMMAGINI/Episodio_Aggiungi.png</file>
+
+        <file>IMMAGINI/film_verde.png</file>
+        <file>IMMAGINI/libro_verde.png</file>
+        <file>IMMAGINI/serie_verde.png</file>
+        <file>IMMAGINI/episodio_verde.png</file>
+
+        <file>IMMAGINI/film_nero.png</file>
+        <file>IMMAGINI/libro_nero.png</file>
+        <file>IMMAGINI/serie_nero.png</file>
+        <file>IMMAGINI/episodio_nero.png</file>
+
+        <file>IMMAGINI/Oscar.png</file>
+
+        <file>IMMAGINI/preferito_si.png</file>
+        <file>IMMAGINI/preferito_no.png</file>
+
+        <file>IMMAGINI/lente.png</file>
+
+        <file>IMMAGINI/stella_vuota.png</file>
+        <file>IMMAGINI/stella_piena.png</file>
+
+    </qresource>
+</RCC>

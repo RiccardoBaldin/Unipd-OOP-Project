@@ -1,0 +1,27 @@
+{
+    "anno": 2008,
+    "autore": "Vince Gilligan",
+    "casa_di_produzione": "AMC",
+    "episodi": [
+        {
+            "anno": 2008,
+            "autore": "Vince Gilligan",
+            "casa_di_produzione": "AMC",
+            "durata": 58,
+            "genere": "Crime Thriller",
+            "nome": "Pilot",
+            "numero_episodio": 1,
+            "numero_stagione": 1,
+            "preferito": false,
+            "regista": "Vince Gilligan",
+            "serie": "Breaking Bad",
+            "tipo": "episodio"
+        }
+    ],
+    "genere": "Crime Thriller",
+    "nome": "Breaking Bad",
+    "numero_episodi": 1,
+    "numero_stagioni": 1,
+    "preferito": true,
+    "tipo": "serie"
+}

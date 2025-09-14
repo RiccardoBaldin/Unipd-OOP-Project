@@ -1,0 +1,130 @@
+{
+    "biblioteca": [
+        {
+            "anno": 1949,
+            "autore": "George Orwell",
+            "editore": "Mondadori",
+            "genere": "Distopico",
+            "nome": "1984",
+            "numero_pagine": 350,
+            "preferito": true,
+            "tipo": "libro"
+        },
+        {
+            "anno": 2008,
+            "autore": "Vince Gilligan",
+            "casa_di_produzione": "AMC",
+            "episodi": [
+                {
+                    "anno": 2008,
+                    "autore": "Vince Gilligan",
+                    "casa_di_produzione": "AMC",
+                    "durata": 58,
+                    "genere": "Crime Thriller",
+                    "nome": "Pilot",
+                    "numero_episodio": 1,
+                    "numero_stagione": 1,
+                    "preferito": false,
+                    "regista": "Vince Gilligan",
+                    "serie": "Breaking Bad",
+                    "tipo": "episodio"
+                },
+                {
+                    "anno": 2009,
+                    "autore": "Vince Gilligan",
+                    "casa_di_produzione": "AMC",
+                    "durata": 47,
+                    "genere": "Crime Thriller",
+                    "nome": "Seven Thirty-Seven",
+                    "numero_episodio": 1,
+                    "numero_stagione": 2,
+                    "preferito": false,
+                    "regista": "Bryan Cranston",
+                    "serie": "Breaking Bad",
+                    "tipo": "episodio"
+                }
+            ],
+            "genere": "Crime Thriller",
+            "nome": "Breaking Bad",
+            "numero_episodi": 2,
+            "numero_stagioni": 2,
+            "preferito": true,
+            "tipo": "serie"
+        },
+        {
+            "anno": 1999,
+            "autore": "Chuck Palahniuk",
+            "casa_di_produzione": "20th Century Fox",
+            "durata": 140,
+            "genere": "Thriller psicologico",
+            "nome": "Fight Club",
+            "oscar": false,
+            "preferito": false,
+            "regista": "David Fincher",
+            "tipo": "film"
+        },
+        {
+            "anno": 1954,
+            "autore": "William Golding",
+            "editore": "Mondadori",
+            "genere": "Psicologico",
+            "nome": "Il signore delle mosche",
+            "numero_pagine": 288,
+            "preferito": false,
+            "tipo": "libro"
+        },
+        {
+            "anno": 1994,
+            "autore": "Quentin Tarantino",
+            "casa_di_produzione": "Miramax",
+            "durata": 154,
+            "genere": "Commedia",
+            "nome": "Pulp Fiction",
+            "oscar": true,
+            "preferito": true,
+            "regista": "Quentin Tarantino",
+            "tipo": "film"
+        },
+        {
+            "anno": 2016,
+            "autore": "Duffer Brothers",
+            "casa_di_produzione": "Netflix",
+            "episodi": [
+                {
+                    "anno": 2016,
+                    "autore": "Duffer Brothers",
+                    "casa_di_produzione": "Netflix",
+                    "durata": 48,
+                    "genere": "Fantascienza",
+                    "nome": "The Vanishing of Will Byers",
+                    "numero_episodio": 1,
+                    "numero_stagione": 1,
+                    "preferito": false,
+                    "regista": "Duffer Brothers",
+                    "serie": "Stranger Things",
+                    "tipo": "episodio"
+                },
+                {
+                    "anno": 2017,
+                    "autore": "Duffer Brothers",
+                    "casa_di_produzione": "Netflix",
+                    "durata": 55,
+                    "genere": "Fantascienza",
+                    "nome": "MADMAX",
+                    "numero_episodio": 1,
+                    "numero_stagione": 2,
+                    "preferito": false,
+                    "regista": "Duffer Brothers",
+                    "serie": "Stranger Things",
+                    "tipo": "episodio"
+                }
+            ],
+            "genere": "Fantascienza",
+            "nome": "Stranger Things",
+            "numero_episodi": 2,
+            "numero_stagioni": 2,
+            "preferito": false,
+            "tipo": "serie"
+        }
+    ]
+}

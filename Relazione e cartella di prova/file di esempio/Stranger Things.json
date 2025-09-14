@@ -1,0 +1,27 @@
+{
+    "anno": 2016,
+    "autore": "Duffer Brothers",
+    "casa_di_produzione": "Netflix",
+    "episodi": [
+        {
+            "anno": 2016,
+            "autore": "Duffer Brothers",
+            "casa_di_produzione": "Netflix",
+            "durata": 48,
+            "genere": "Fantascienza",
+            "nome": "The Vanishing of Will Byers",
+            "numero_episodio": 1,
+            "numero_stagione": 1,
+            "preferito": false,
+            "regista": "Duffer Brothers",
+            "serie": "Stranger Things",
+            "tipo": "episodio"
+        }
+    ],
+    "genere": "Fantascienza",
+    "nome": "Stranger Things",
+    "numero_episodi": 1,
+    "numero_stagioni": 1,
+    "preferito": false,
+    "tipo": "serie"
+}
