@@ -620,18 +620,32 @@ void MainWindow::importaEpisodio(File_Serie* serie){
     if (filePath.isEmpty()) return;
 
     File_Generico* nuovoEpisodio = creaFileDaJson(filePath.toStdString());
-    if (!nuovoEpisodio || !dynamic_cast<File_Episodio*>(nuovoEpisodio)) {
+    auto epi = static_cast<File_Episodio*>(nuovoEpisodio);
+    if (!nuovoEpisodio || !epi) {
         QMessageBox::warning(this, "Errore", "Impossibile caricare il file.");
         return;
     }
 
-    if (!serie->check(static_cast<File_Episodio*>(nuovoEpisodio), nullptr)){
+    if (!serie->check(epi, nullptr)){
         QMessageBox::warning(this, "Errore", 
             QString::fromStdString("L'episodio \"" + nuovoEpisodio->GetNome() + "\" è già presente nella biblioteca."));
         delete nuovoEpisodio; 
         return;
     }
     
+    if (!serie->postolibero(epi, nullptr)){
+        QMessageBox::warning(this, "Errore", 
+            QString::fromStdString(
+                "La serie \"" + serie->GetNome() +
+                "\" contiene già un episodio numero \"" + std::to_string(epi->GetNumeroEpisodio()) +
+                "\" nella stagione \"" + std::to_string(epi->GetNumeroStagione()) +
+                "\", modificare il file .JSON e riprovare !"
+            )
+        );    
+        delete nuovoEpisodio; 
+        return;
+    }
+        
     serie->AggiungiEpisodio(static_cast<File_Episodio*>(nuovoEpisodio));
     mostraWindow(serie);
 }
